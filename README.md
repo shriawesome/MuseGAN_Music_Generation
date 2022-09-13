@@ -17,3 +17,18 @@ ____________________________________________
     >$\min_{G}\max_{D}E_{x \approx p_{d}}[log(D(x))] + E_{z \approx p_{z}}[1-log(D(G(z)))]$, where $p_{d},p_{z}$ represents the distribution of real data and prior distribution of z.
 - Basic understanding of GAN-
     <p align="center"><img src='imgs/fig3.png' width = "40%" height = "40%"/></p>
+
+## Dataset
+- The dataset used is a part of **Lakh MIDI dataset**, a large collection of 176,581 unique midi files.
+- I used a preprocessed dataset called **LPD-5-cleansed dataset**.
+- Key features of dataset includes:
+    - Structural feature based segmentation.
+    - prune to 4-bar phrases.
+    - contains 84 possible pitches.
+- [Link to dataset](https://drive.google.com/uc?id=11rxrGaQbfTW-WC0k2GlR9YDAT-UxIb4O)
+- Snippet of the dataset, where each horizontal bar indicated that a particular string was played
+<p align="center"><img src='imgs/fig4.png' width = "40%" height = "40%"/></p>
+
+## Model Architecture:
+- 
+
