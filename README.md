@@ -27,8 +27,21 @@ ____________________________________________
     - contains 84 possible pitches.
 - [Link to dataset](https://drive.google.com/uc?id=11rxrGaQbfTW-WC0k2GlR9YDAT-UxIb4O)
 - Snippet of the dataset, where each horizontal bar indicated that a particular string was played
-<p align="center"><img src='imgs/fig4.png' width = "40%" height = "40%"/></p>
+    <p align="center"><img src='imgs/fig4.png' width = "40%" height = "40%"/></p>
 
-## Model Architecture:
-- 
+## System Diagram for Model:
+- Generator Block consists of:
+    - ConvTrans3D
+    - BatchNorm3d
+- Discriminator block consist of:
+    - Conv3d
+    - LayerNorm
+<p align="center"><img src='imgs/fig5.png' width = "100%" height = "100%"/></p>
+
+## Contributions:
+- [Shrikant Kendre](https://github.com/shriawesome)
+
+## Resources
+- [Lakh Midi Dataset](https://salu133445.github.io/lakh-pianoroll-dataset/)
+- [MuseGAN Research Paper](https://arxiv.org/abs/1709.06298)
 
